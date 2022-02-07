@@ -1,0 +1,23 @@
+header{
+    .menu{
+        background-color: $color2;
+
+        a{
+            padding-left: 15%;
+            text-decoration: none;
+            list-style-type: none;
+            .logo{
+                height: 150px;
+            }
+        }
+        .see-cart{
+            margin-right: 14%;
+            .cart-logo{
+
+                i{
+
+                }
+            }
+        }
+    }
+}    

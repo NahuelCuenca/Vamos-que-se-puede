@@ -1,0 +1,22 @@
+$color1: #252525;
+$color2: #6930C3;
+$color3: #64DFDF;
+$tipografia-texto: 'Roboto Condensed', sans-serif;
+
+@mixin products-cards{
+    margin: 50px 14%;
+    max-width: 80%;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import "body";
+@import "header";
+@import "home";
+@import "footer";
+
+
+

@@ -1,0 +1,11 @@
+ARREGLAR PROYECTO
+
+1- Que los productos aparezcan de a 1 cuando los clickeas
+
+2- Arreglar los iconos de los filtros
+
+3-Arreglar los botones de suma y resta de producto
+
+4-Que aparezca el precio final
+
+5- Registro de usuario

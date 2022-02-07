@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #252525;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif; }
+
+header .menu {
+  background-color: #6930C3; }
+  header .menu a {
+    padding-left: 15%;
+    text-decoration: none;
+    list-style-type: none; }
+    header .menu a .logo {
+      height: 150px; }
+  header .menu .see-cart {
+    margin-right: 14%; }
+
+.home .hero-img {
+  width: 100%;
+  height: 85vh;
+  background-image: url(/Img/bg-home.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+  .home .hero-img .searcher {
+    display: flex;
+    flex-direction: column; }
+    .home .hero-img .searcher i {
+      z-index: 1; }
+    .home .hero-img .searcher input {
+      width: 400px;
+      padding: 3%;
+      background-color: #6930C3;
+      border: 1px #6930C3 solid;
+      border-radius: 25px;
+      color: white; }
+
+.home .center {
+  text-align: center;
+  margin-top: 35px;
+  text-decoration: underline 3px #64DFDF; }
+
+.home .benefits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 30px 10%; }
+  .home .benefits .benefitsCards .icon-container {
+    display: inline-block;
+    align-items: center;
+    background-color: #6930C3;
+    color: white;
+    font-size: 50px;
+    border-radius: 80%;
+    padding: 40px 30px 40px 50px;
+    width: 150px;
+    margin: 30px 10%;
+    z-index: 1; }
+    .home .benefits .benefitsCards .icon-container i {
+      color: #252525; }
+  .home .benefits .benefitsCards .subtitle {
+    color: #64DFDF;
+    font-weight: bold; }
+
+.home .catalog {
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .home .catalog .center {
+    text-align: center;
+    margin: 35px 0 45px 0; }
+  .home .catalog .filtered {
+    margin-left: 18%; }
+    .home .catalog .filtered button {
+      display: inline-block;
+      align-items: center;
+      background-color: #6930C3;
+      color: #252525;
+      font-size: 50px;
+      font-weight: bold;
+      border-radius: 80%;
+      padding: 40px 30px 40px 20px;
+      width: 150px;
+      margin: 5px 5%;
+      z-index: 1;
+      transition: all 1.5s ease; }
+      .home .catalog .filtered button:hover {
+        cursor: pointer;
+        background-color: #64DFDF; }
+    .home .catalog .filtered .filters-containers {
+      display: inline-block;
+      align-items: center;
+      background-color: #6930C3;
+      color: #252525;
+      font-size: 50px;
+      border-radius: 80%;
+      padding: 40px 30px 40px 50px;
+      width: 150px;
+      margin: 5px 5%;
+      z-index: 1;
+      transition: all 1.5s ease; }
+      .home .catalog .filtered .filters-containers:hover {
+        cursor: pointer;
+        background-color: #64DFDF; }
+        .home .catalog .filtered .filters-containers:hover i {
+          color: #252525; }
+  .home .catalog .general {
+    margin: 50px 14%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .home .catalog .general .card {
+      width: 400px;
+      margin: 25px 10px;
+      background-color: #252525;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466); }
+      .home .catalog .general .card .card-body {
+        font-weight: bold;
+        color: #64DFDF; }
+        .home .catalog .general .card .card-body .card-title {
+          font-weight: bold; }
+        .home .catalog .general .card .card-body button {
+          background-color: #6930C3;
+          color: white;
+          border-color: #6930C3; }
+      .home .catalog .general .card img {
+        max-height: 398px;
+        max-width: 398px;
+        object-fit: cover; }
+
+.home .cart .table {
+  margin-left: 17%;
+  max-width: 65%;
+  color: white; }
+  .home .cart .table button {
+    display: inline-block;
+    width: 60%;
+    margin-top: 5px;
+    background-color: #6930C3;
+    color: white; }
+
+.home .total-amount {
+  display: none;
+  text-align: center; }
+
+.home .purchase .buy-button {
+  justify-content: center;
+  margin-top: 5px;
+  width: 75px;
+  height: 40px;
+  background-color: #6930C3;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  transition: all 2s ease; }
+  .home .purchase .buy-button:hover {
+    background-color: #49FF00; }
+
+footer {
+  background-color: #6930C3;
+  height: 32vh; }
+  footer .footer-main {
+    margin: 30px 14%;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+    footer .footer-main .info {
+      list-style-type: none;
+      text-decoration: none;
+      color: #64DFDF; }
+      footer .footer-main .info .text {
+        font-weight: bold;
+        font-size: 20px; }
+      footer .footer-main .info li a {
+        color: #64DFDF; }
+    footer .footer-main .social-media {
+      list-style-type: none;
+      text-decoration: none; }
+      footer .footer-main .social-media li {
+        padding-top: 10px; }
+        footer .footer-main .social-media li a {
+          color: #64DFDF;
+          font-size: 25px; }
+          footer .footer-main .social-media li a .fa-instagram {
+            transition: all 0.5s ease; }
+            footer .footer-main .social-media li a .fa-instagram:hover {
+              border-radius: 30px;
+              background-color: rgba(224, 18, 173, 0.651);
+              color: white; }
+          footer .footer-main .social-media li a .fa-twitter {
+            transition: all 0.5s ease; }
+            footer .footer-main .social-media li a .fa-twitter:hover {
+              border-radius: 30px;
+              background-color: #31b1e4;
+              color: white; }
+          footer .footer-main .social-media li a .fa-facebook {
+            transition: all 0.5s ease; }
+            footer .footer-main .social-media li a .fa-facebook:hover {
+              border-radius: 30px;
+              color: #2132c5;
+              background-color: white; }

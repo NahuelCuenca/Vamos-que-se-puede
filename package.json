@@ -1,0 +1,18 @@
+{
+  "name": "trabajo-actual",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss SCSS/style.scss CSS/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Joaquin Cortez",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^17.4.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}
