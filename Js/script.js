@@ -9,9 +9,11 @@ $( document ).ready(function (){
 // https://validatejs.org/
 
 
+
+
 const cart = [];
 
-let bag = []
+let bag
 
 class products{
     constructor(id, group, img, name, price, details, quantity){
@@ -423,9 +425,14 @@ $("#filterButton").on("mouseover", function(){
 
 })
 
+let validarCarrito = localStorage.getItem("cart");
 
-
-
+if (validarCarrito == null){
+    bag = [];
+ }else{
+    bag = JSON.parse(validarCarrito)
+    addToCart()
+}
 
 
 
